@@ -1,0 +1,252 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: inherit; 
+}
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    gap: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 150px;
+    margin-top: 30px;
+}
+.nav_menu{
+    list-style: none;
+}
+.about{
+    margin-bottom: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 400px;
+}
+.about h1{
+    font-size: 40px;
+    font-weight: 700;
+}
+.about p{
+    font-size: 17px;
+    font-weight: 200;
+    margin-bottom: 40px;
+    margin-top: 30px;
+}
+.about_txt{
+    width: 450px;
+}
+.download_button{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    width: 210px;
+    height: 50px;
+    padding: 10px 20px;
+    background-color: #FF6464;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.profile_picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+}   
+
+.profile_picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.posts_container {
+    width: 100%;
+    background-color: #EDF7FA;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.posts_ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    color: #21243D;
+}
+
+.posts_ul li p {
+    margin: 0;
+    font-weight: bold;
+    color: #21243D;
+}
+
+.posts_ul li a {
+    color: #007BFF;
+    text-decoration: none;
+    font-size: 1em;
+}
+
+.posts_ul li a:hover {
+    text-decoration: underline;
+}
+
+.carousel {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.post_card {
+    background-color: #ffffff;
+    width: 470px;
+    height: 240px;
+    padding: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.post_card h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+    color: #21243D;
+}
+
+.post_card p {
+    font-size: 17px;
+    color: #21243D;
+    line-height: 1.5;
+}
+
+.post_card .post-meta {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 15px;
+}
+.works_ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    color: #21243D;
+}
+
+
+.works_container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.works_ul {
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+    color: #21243D;
+}
+
+.works_ul li p {
+    margin: 0;
+    font-weight: bold;
+    color: #21243D;
+}
+
+.work_cards {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.card_img {
+    width: 420px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.work_cards h2 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0;
+    color: #333;
+}
+
+.work_cards p {
+    color: #666;
+    font-size: 0.9em;
+    line-height: 1.4;
+    font-size: 16px ;
+}
+
+.work_cards h2 + p {
+    font-style: italic;
+    color: #21243D;
+}
+
+.works_txt{
+    display: flex;
+    flex-direction: column;
+    gap: 12px
+}
+.year_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 28px;
+    color: #ffffff;
+    background-color: #21243D;
+    border-radius: 15px;
+    padding: 0; 
+    line-height: 1; 
+    font-size: 16px;
+    font-weight: 800;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+.ul_footer{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+}
+
+.footer-icons{
+    width: 30px;
+    height: 30px;
+}
+
+footer p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
